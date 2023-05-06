@@ -24,7 +24,6 @@ jobs:
 
       - name: Build ReactJS app
         run: |
-          cd class-and-prop
           npm install
           npm run build --if-present
         env:
@@ -39,3 +38,4 @@ jobs:
           # npm build to set up. holds compiled v of app
           FOLDER: build
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # got to github repo/actions/workflow link & click build
