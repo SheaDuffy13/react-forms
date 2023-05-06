@@ -39,3 +39,5 @@ jobs:
           FOLDER: build
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # got to github repo/actions/workflow link & click build
+          # settings/pages change branch to gh-pages, refresh
+          # in package.json, under name add   "homepage": "https://sheaduffy13.github.io/react-forms/",
